@@ -61,5 +61,6 @@ contract Vote {
   }
   function getVotesById(uint index) public view returns(uint256){
     return proposals[index].votesCount;
+    
   }
 }
