@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.17;
+pragma solidity 0.8.4;
 
 
 import "hardhat/console.sol";
@@ -10,8 +10,8 @@ contract Vote {
     uint votesCount;
   }
   struct Voter {
-      bool voted;  // true si esa persona ya ha votado
-      uint vote;   // índice de la propuesta votada
+      bool voted ;  // true si esa persona ya ha votado
+      uint vote ;   // índice de la propuesta votada
   }
   Proposal[] public proposals;
 
